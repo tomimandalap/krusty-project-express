@@ -27,6 +27,11 @@ SECRETJWT=keyjwt
 
 ---
 
+### IMPORTANT
+Plese IMPORT file ```dbkrusty.sql``` to MySQL-XAMPP
+
+---
+
 ### ```Installing```
 Clone project 
 ```
@@ -43,3 +48,6 @@ npm run start
 ```
 
 ---
+
+### ```Frontend```
+Let's see a [project](https://github.com/tomimandalap/krusty-project)

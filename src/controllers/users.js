@@ -262,6 +262,11 @@ module.exports = {
         }
       }
     } else {
+      const { image } = body
+
+      // dilakukan pengecekan jika body image null maka dilakukan hapus key image pada object body
+      if ([null, 'null'].includes(image)) delete body.image
+
       modelUpdate(body, user_id)
         .then((response) => {
           if (response.affectedRows) {
